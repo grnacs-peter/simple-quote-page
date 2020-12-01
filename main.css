@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+div {
+  margin-top: -460px;
+}
+h1, h3 {
+  font-family: monospace;
+}
+h1 {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: dimgrey;
+  line-height: 1.6em;
+  letter-spacing: inherit;
+}
+h3 {
+  margin-top: 30px;
+  font-size: 1.2em;
+  padding-left: 50px;
+  color: dimgrey;
+  letter-spacing: 0.1em;
+  font-style: oblique;
+}
